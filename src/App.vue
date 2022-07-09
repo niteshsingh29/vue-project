@@ -1,10 +1,14 @@
 <template>
   <Form />
 </template>
-<script setup>
-import Form from "@/components/Form.vue";
-components: {
-  name: "Form"
+
+<script>
+import Form from "./components/Form.vue";
+export default {
+  name: "App",
+  components: {
+    Form
+  }
 }
 </script>
 
